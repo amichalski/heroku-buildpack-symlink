@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# bin/compile <build-dir> <cache-dir>
+
+set -e
+
+echo "-----> Found a .buildpack-symlink file"
+
+echo Setting symlinks
+ln -s client/dist $1/public 
+

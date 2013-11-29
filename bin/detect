@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+if [ -f $1/client/.buildpack-symlink ]; then
+  echo "Detect symlink buildpack"
+  exit 0
+else
+  echo "no .buildpack-symlink file"
+  exit 1
+fi
