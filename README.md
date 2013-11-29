@@ -1,4 +1,4 @@
-heroku-buildpack-test
+heroku-buildpack-symlink
 =====================
 
-Test for heroku buildpack
+Create custom symlink on heroku
