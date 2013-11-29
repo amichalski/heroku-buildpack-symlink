@@ -6,6 +6,5 @@ set -e
 echo "-----> Found a .buildpack-symlink file"
 
 echo Setting symlinks
-rm -r $1/public
 ln -s client/dist $1/public 
 
